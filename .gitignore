@@ -1,0 +1,33 @@
+# Bản in ra, sinh lại được từ markdown
+*.pptx
+*.docx
+*.pdf
+ban-giao/xuat/
+slide/*.png
+slide/anh/
+
+# Tạm
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+node_modules/
+__pycache__/
+
+# Không bao giờ commit
+.env
+.env.*
+*token*
+*credential*
+
+# Ghi chú nội bộ, không phát cho học viên
+plans/
+
+# Không thuộc khóa học này
+soan-bai-giang-plugin/
+images/
+
+# Bài nộp thật của học viên
+hoc-vien-nop/
+*.local.md
