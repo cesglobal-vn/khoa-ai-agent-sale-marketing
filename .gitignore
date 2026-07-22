@@ -6,6 +6,10 @@ ban-giao/xuat/
 slide/*.png
 slide/anh/
 
+# Ngoại lệ: bản slide đã dựng xong, giảng viên tải về dùng ngay.
+# Ảnh rời không đưa lên vì file pptx đã chứa sẵn toàn bộ ảnh.
+!slide/buoi-*.pptx
+
 # Tạm
 .DS_Store
 Thumbs.db
